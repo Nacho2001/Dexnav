@@ -5,8 +5,11 @@ const Footer = () => {
     return (
         <div className='absolute sticky bottom-0 w-12 h-3rem bg-cyan-800'>
             <div className='ml-4 flex flex-column'>
-                <div><b>Autor</b>: Ignacio Migoni</div>
-                <div><b>Materia</b>: Laboratorio Full Stack II</div>
+                <div>
+                    <b>Fuentes</b>
+                        <a href='www.wikidex.net'>Wikidex;</a>
+                        <a href='pokeapi.co'>PokeApi</a>
+                </div>
             </div>
         </div>
     )
